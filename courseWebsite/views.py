@@ -11,3 +11,7 @@ def cart(request):
 
 def checkout(request):
     return render(request, 'courseWebsite/checkout.html')
+
+
+def register(request):
+    return render(request, 'courseWebsite/register.html')
